@@ -1,0 +1,29 @@
+.project-section {
+    padding: 20px;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .tabs button {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .tabs .active {
+    background-color: black;
+    color: white;
+  }
+  
+  .projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  

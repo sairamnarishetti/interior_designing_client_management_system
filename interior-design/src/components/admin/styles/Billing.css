@@ -1,0 +1,235 @@
+.billing-container {
+    padding: 2rem;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .subtitle {
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  
+  .summary-cards {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .card {
+    flex: 1;
+    border-radius: 12px;
+    padding: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .card.blue { background: #dbeafe; color: #1e3a8a; }
+  .card.green { background: #d1fae5; color: #065f46; }
+  .card.yellow { background: #fef3c7; color: #92400e; }
+  
+  .card-icon { opacity: 0.4; }
+  
+  .filter-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .filter-bar input {
+    width: 60%;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .filter-btn {
+    background: #eee;
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .tabs button {
+    background: #f5f5f5;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .tabs .active {
+    background: #111827;
+    color: #fff;
+  }
+  
+  .invoice-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+  }
+  
+  .invoice-table th, .invoice-table td {
+    padding: 0.8rem 1rem;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+  }
+  
+  .status-badge {
+    padding: 0.3rem 0.7rem;
+    border-radius: 12px;
+    font-size: 0.85rem;
+  }
+  
+  .status-badge.paid { background: #dcfce7; color: #15803d; }
+  .status-badge.pending { background: #fef9c3; color: #92400e; }
+  .status-badge.overdue { background: #fee2e2; color: #b91c1c; }
+  
+  .actions svg {
+    margin-right: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .bottom-panels {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .revenue-breakdown, .recent-transactions {
+    flex: 1;
+    background: #fafafa;
+    padding: 1rem;
+    border-radius: 12px;
+  }
+  
+  .revenue-breakdown ul, .recent-transactions ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .revenue-breakdown li, .recent-transactions li {
+    margin-bottom: 1rem;
+  }
+  
+  .bar {
+    height: 6px;
+    border-radius: 4px;
+    width: 100px;
+    margin-right: 0.5rem;
+    display: inline-block;
+  }
+  
+  .blue-bar { background: #3b82f6; }
+  .purple-bar { background: #a855f7; }
+  .green-bar { background: #22c55e; }
+  .orange-bar { background: #f97316; }
+  
+  .recent-transactions span.credit { color: #16a34a; float: right; }
+  .recent-transactions span.debit { color: #dc2626; float: right; }
+  
+  .billing-management {
+    padding: 24px;
+  }
+  
+  .summary-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .no-invoices {
+    text-align: center;
+    padding: 48px;
+    background: #fafafa;
+    border-radius: 8px;
+    margin: 24px 0;
+  }
+  
+  .no-invoices p {
+    margin: 0;
+    color: #666;
+  }
+  
+  .no-invoices .total-invoices {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #999;
+  }
+  
+  /* Table styles */
+  .ant-table-wrapper {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .ant-table-thead > tr > th {
+    background: #fafafa;
+    font-weight: 600;
+  }
+  
+  .ant-table-tbody > tr:hover > td {
+    background: #f5f5f5;
+  }
+  
+  /* Status tag colors */
+  .ant-tag {
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-weight: 500;
+  }
+  
+  /* Form styles */
+  .ant-form-item-label > label {
+    font-weight: 500;
+  }
+  
+  .ant-input-number {
+    width: 100%;
+  }
+  
+  /* Modal styles */
+  .ant-modal-content {
+    border-radius: 8px;
+  }
+  
+  .ant-modal-header {
+    border-radius: 8px 8px 0 0;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .billing-management {
+      padding: 16px;
+    }
+    
+    .summary-cards {
+      grid-template-columns: 1fr;
+    }
+    
+    .filters {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    
+    .filters > * {
+      width: 100% !important;
+    }
+  }
+  

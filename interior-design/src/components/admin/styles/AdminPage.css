@@ -1,0 +1,106 @@
+.admin-dashboard {
+  padding: 24px;
+}
+
+.admin-dashboard h1 {
+  margin-bottom: 24px;
+  color: #1a1a1a;
+  font-size: 24px;
+}
+
+.statistics-row {
+  margin-bottom: 24px;
+}
+
+.statistics-row .ant-card {
+  height: 100%;
+}
+
+.statistics-row .ant-statistic-title {
+  font-size: 16px;
+  color: #666;
+}
+
+.statistics-row .ant-statistic-content {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.dashboard-content {
+  margin-bottom: 24px;
+}
+
+.recent-clients .ant-table {
+  background: transparent;
+}
+
+.recent-clients .ant-table-thead > tr > th {
+  background: #fafafa;
+  font-weight: 600;
+}
+
+.project-status .status-item {
+  margin-bottom: 16px;
+}
+
+.project-status .status-item:last-child {
+  margin-bottom: 0;
+}
+
+.project-status .status-item span {
+  display: block;
+  margin-bottom: 4px;
+  color: #666;
+}
+
+.project-status .status-item span:last-child {
+  margin-top: 4px;
+  font-size: 12px;
+  color: #999;
+}
+
+.revenue-category .category-item {
+  margin-bottom: 24px;
+}
+
+.revenue-category .category-item:last-child {
+  margin-bottom: 0;
+}
+
+.revenue-category .category-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.revenue-category .category-header span:first-child {
+  font-weight: 500;
+  color: #1a1a1a;
+}
+
+.revenue-category .category-header span:last-child {
+  color: #52c41a;
+  font-weight: 600;
+}
+
+.revenue-category .category-footer {
+  margin-top: 4px;
+  font-size: 12px;
+  color: #999;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .admin-dashboard {
+    padding: 16px;
+  }
+
+  .statistics-row .ant-statistic-content {
+    font-size: 20px;
+  }
+
+  .revenue-category .category-header {
+    flex-direction: column;
+    gap: 4px;
+  }
+} 

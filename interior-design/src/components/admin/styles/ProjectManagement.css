@@ -1,0 +1,88 @@
+.project-management {
+    padding: 24px;
+    font-family: "Inter", sans-serif;
+  }
+  
+  .project-management h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+  
+  .tab-btn {
+    padding: 8px 16px;
+    border-radius: 6px;
+    background-color: #f3f4f6;
+    color: #374151;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .tab-btn.active {
+    background-color: #000000;
+    color: white;
+  }
+  
+  .search-filter {
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .search-input {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #d1d5db;
+    width: 300px;
+  }
+  
+  .project-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .project-table thead {
+    background-color: #f9fafb;
+    text-align: left;
+  }
+  
+  .project-table th,
+  .project-table td {
+    padding: 12px 16px;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .status-badge {
+    padding: 4px 10px;
+    font-size: 12px;
+    border-radius: 9999px;
+    display: inline-block;
+    font-weight: 500;
+  }
+  
+  .status-inprogress {
+    background-color: #e0f2fe;
+    color: #0284c7;
+  }
+  
+  .status-planning {
+    background-color: #fef3c7;
+    color: #92400e;
+  }
+  
+  .status-completed {
+    background-color: #dcfce7;
+    color: #15803d;
+  }
+  

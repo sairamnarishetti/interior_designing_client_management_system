@@ -1,0 +1,70 @@
+.billing-section {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .billing-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .billing-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .billing-table th,
+  .billing-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .billing-table th {
+    background-color: #f5f5f5;
+  }
+  
+  .billing-table td.paid {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .billing-table td.unpaid {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .methods-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .method-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 8px;
+    flex: 1 1 200px;
+  }
+
+  .no-history {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+
+  .no-history p {
+    margin: 10px 0;
+    color: #666;
+  }
+
+  .no-history .total-billed {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #333;
+  }
+  

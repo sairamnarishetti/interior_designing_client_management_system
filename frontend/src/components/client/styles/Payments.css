@@ -1,0 +1,71 @@
+.payment-history {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .payment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .payment-button {
+    background-color: #000;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 12px 8px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .status.paid {
+    color: green;
+    font-weight: 500;
+  }
+  
+  .status.pending {
+    color: orange;
+    font-weight: 500;
+  }
+  
+  .view-receipt {
+    background: none;
+    border: none;
+    color: #000;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .no-payments {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+
+  .no-payments p {
+    margin: 10px 0;
+    color: #666;
+  }
+
+  .no-payments .total-amount {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #333;
+  }
+  

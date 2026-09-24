@@ -1,0 +1,30 @@
+.my-projects-page {
+    padding: 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #1a1a1a;
+  }
+  
+  .my-projects-page h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .my-projects-page p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 24px;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+  }
+  .project-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  

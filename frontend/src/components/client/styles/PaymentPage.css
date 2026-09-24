@@ -1,0 +1,44 @@
+.payment-page {
+    padding: 40px;
+    background-color: #fefefe;
+  }
+  
+  .payment-page h2 {
+    margin-bottom: 20px;
+  }
+  
+  .invoice-details {
+    margin-bottom: 30px;
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .payment-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+  }
+  
+  .payment-form label {
+    margin-bottom: 15px;
+    font-weight: 500;
+  }
+  
+  .payment-form input {
+    padding: 8px;
+    margin-top: 5px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .payment-form button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  

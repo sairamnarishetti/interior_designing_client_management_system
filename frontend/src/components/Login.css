@@ -1,0 +1,176 @@
+/* Centering the whole page */
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+    padding: 1rem;
+  }
+  
+  /* Main Login Card */
+  .login-box {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Title + Subtitle */
+  .login-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+  }
+  
+  .login-subtitle {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 1.8rem;
+  }
+  
+  /* Form layout */
+  .login-form {
+    text-align: left;
+  }
+  
+  .input-label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 6px;
+    margin-top: 16px;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    border: 1px solid #d1d5db;
+    padding: 10px;
+    border-radius: 8px;
+    background: #f9fafb;
+  }
+  
+  .input-group .icon {
+    color: #6b7280;
+    margin-right: 8px;
+  }
+  
+  .input-field {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 14px;
+    background: transparent;
+  }
+  
+  .password-wrapper {
+    position: relative;
+  }
+  
+  .toggle-visibility {
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+    color: #999;
+    cursor: pointer;
+  }
+  
+  /* Forgot password */
+  .forgot-password {
+    text-align: right;
+    font-size: 14px;
+    color: #666;
+    text-decoration: none;
+    margin-top: 6px;
+    margin-bottom: 18px;
+    display: block;
+  }
+  
+  /* Role Selection */
+  .role-selection-row {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 20px 0 10px;
+  }
+  
+  .role-selection-row label {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  /* Sign In Button */
+  .login-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    background: #111827;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 500;
+  }
+  
+  /* Divider text */
+  .continue-with {
+    font-size: 12px;
+    color: #9ca3af;
+    text-align: center;
+    margin: 20px 0 12px;
+  }
+  
+  /* Social Login Buttons */
+  .social-login {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .google-button,
+  .facebook-button {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    background: #f3f4f6;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .google-button {
+    color: #db4437;
+  }
+  
+  .facebook-button {
+    color: #4267b2;
+  }
+  
+  /* Signup Link */
+  .signup-link {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .signup-link a {
+    color: #111827;
+    text-decoration: underline;
+    font-weight: 500;
+  }
+  

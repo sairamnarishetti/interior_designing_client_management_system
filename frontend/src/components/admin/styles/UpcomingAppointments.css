@@ -1,0 +1,36 @@
+/* src/components/admin/styles/UpcomingAppointments.css */
+.upcoming-appointments-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+  
+  .upcoming-appointments-card h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+  
+  .upcoming-appointments-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .appointment-item {
+    border-bottom: 1px solid #e5e7eb;
+    padding: 10px 0;
+  }
+  
+  .appointment-item strong {
+    display: block;
+    font-weight: 600;
+    color: #1f2937;
+  }
+  
+  .appointment-item p {
+    font-size: 14px;
+    color: #6b7280;
+  }
+  

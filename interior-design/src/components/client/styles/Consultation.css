@@ -1,0 +1,163 @@
+/* Container layout for the consultation page */
+.consultation-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 40px;
+    margin-left:220px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Main form area */
+  .consultation-form {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Section titles and form labels */
+  .consultation-form h2 {
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .consultation-form p {
+    margin-top: 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .consultation-form label {
+    font-weight: 500;
+    margin-top: 10px;
+  }
+  
+  /* Designer selection and project type dropdowns */
+  .consultation-form select,
+  .consultation-form input[type="date"],
+  .consultation-form textarea {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100%;
+    background-color: #fff;
+  }
+  
+  /* Textarea specifically */
+  .consultation-form textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  /* Radio group for consultation type */
+  .radio-group {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  /* Time slot buttons */
+  .time-slots {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .time-slot {
+    padding: 10px 16px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+  }
+  
+  .time-slot:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .time-slot.selected {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+  
+  /* Sidebar information panel */
+  .consultation-sidebar {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    font-size: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .consultation-sidebar h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .consultation-sidebar ul {
+    padding-left: 20px;
+    list-style-type: disc;
+  }
+  
+  .consultation-sidebar ul li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  .consultation-sidebar .note {
+    margin-top: 20px;
+    font-style: italic;
+    color: #666;
+    font-size: 13px;
+  }
+  
+  /* Book button styling */
+  .book-button {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .book-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive layout */
+  @media (max-width: 1024px) {
+    .consultation-container {
+      flex-direction: column;
+    }
+  
+    .consultation-form,
+    .consultation-sidebar {
+      width: 100%;
+    }
+  }
+  

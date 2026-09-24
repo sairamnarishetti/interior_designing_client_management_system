@@ -1,0 +1,78 @@
+.project-card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .status {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+  }
+  
+  .status.in-progress {
+    background-color: #e0f2fe;
+    color: #0284c7;
+  }
+  
+  .status.planning {
+    background-color: #fef9c3;
+    color: #ca8a04;
+  }
+  
+  .status.completed {
+    background-color: #dcfce7;
+    color: #16a34a;
+  }
+  
+  .dates {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #444;
+  }
+  
+  .progress {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  
+  .progress-bar {
+    background-color: #eee;
+    height: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .progress-fill {
+    background-color: #4b5563;
+    height: 100%;
+  }
+  
+  .details-btn {
+    margin-top: auto;
+    padding: 10px;
+    background-color: #1f2937;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .details-btn:hover {
+    background-color: #111827;
+  }
+  

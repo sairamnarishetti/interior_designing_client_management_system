@@ -1,0 +1,103 @@
+.project-details-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #222;
+  }
+  
+  .project-title {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  .project-address {
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .project-overview {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .progress-budget {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  
+  .progress {
+    flex: 1;
+    min-width: 200px;
+    margin-right: 20px;
+  }
+  
+  .progress-bar {
+    background: #eee;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 10px;
+    margin: 5px 0;
+  }
+  
+  .progress-fill {
+    height: 100%;
+    background: #4caf50;
+    border-radius: 10px;
+  }
+  
+  .budget, .completion-date {
+    flex: 1;
+    min-width: 150px;
+  }
+  
+  .project-tabs {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+  }
+  
+  .project-tabs button {
+    padding: 10px 20px;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .project-tabs button.active,
+  .project-tabs button:hover {
+    background: #4caf50;
+    color: #fff;
+  }
+  
+  .project-description, .project-team, .next-steps {
+    margin-bottom: 30px;
+  }
+  
+  .materials-tags {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  .materials-tags span {
+    background: #e0f2f1;
+    color: #00796b;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+  }
+  
+  .project-team ul,
+  .next-steps ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  

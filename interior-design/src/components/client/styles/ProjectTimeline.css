@@ -1,0 +1,36 @@
+.timeline-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.task-title {
+    font-weight: 600;
+}
+
+.task-status {
+    float: right;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.completed .task-status {
+    background-color: #d4f5dd;
+    color: #267a43;
+}
+
+.in-progress .task-status {
+    background-color: #dceeff;
+    color: #2b78c5;
+}
+
+.to-do .task-status {
+    background-color: #f0f0f0;
+    color: #888;
+}

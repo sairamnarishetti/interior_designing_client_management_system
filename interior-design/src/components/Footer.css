@@ -1,0 +1,68 @@
+/* Footer Styling */
+.footer {
+    background: #007acc;  /* Deeper blue for contrast */
+    color: white;  /* White text for better readability */
+    padding: 40px 0 0 0; /* Remove bottom padding */
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer h4 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #f0f0f0;  /* Softer white for headings */
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px; /* Adjust space for clean layout */
+    padding: 0 10%; /* Add some padding on sides */
+}
+
+.footer-column {
+    width: 220px;
+    margin: 0; /* Remove extra margin */
+    background-color: transparent; /* Remove background color */
+    padding: 10px 0;
+}
+
+.footer-column a {
+    text-decoration: none;
+    color: #d1e7ff;  /* Light text color for readability */
+    display: block;
+    margin-bottom: 8px;
+}
+
+.footer-column a:hover {
+    color: #ffffff;  /* Brighter hover effect */
+}
+
+.footer-social-icons {
+    margin-top: 10px; /* Adjust spacing */
+}
+
+.footer-social-icons a {
+    margin: 0 8px;
+    color: white;
+    font-size: 20px;
+    padding: 6px;
+    border-radius: 50%;
+    background: #e4e8ea; /* Darker blue for icons */
+    display: inline-block;
+}
+
+.footer-social-icons a:hover {
+    background: #d8dadb;
+    color: #ffffff;
+}
+
+.footer-bottom {
+    border-top: 1px solid #8d9298;
+    padding-top: 10px; /* Reduce padding */
+    font-size: 0.9rem;
+    color: #d1e7ff;
+    text-align: center;
+    margin-top: 20px;
+}

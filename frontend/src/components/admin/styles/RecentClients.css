@@ -1,0 +1,52 @@
+/* src/components/admin/styles/RecentClients.css */
+.recent-clients-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+  
+  .recent-clients-card h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+  
+  .recent-clients-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .recent-clients-card li {
+    border-bottom: 1px solid #e5e7eb;
+    padding: 10px 0;
+  }
+  
+  .recent-clients-card strong {
+    display: block;
+    font-weight: 600;
+    color: #111827;
+  }
+  
+  .recent-clients-card p {
+    font-size: 14px;
+    color: #6b7280;
+  }
+  
+  .status {
+    font-weight: 500;
+  }
+  
+  .status.in-progress {
+    color: #f59e0b;
+  }
+  
+  .status.completed {
+    color: #10b981;
+  }
+  
+  .status.consultation {
+    color: #3b82f6;
+  }
+  

@@ -1,0 +1,81 @@
+/* src/components/admin/styles/AdminDashboard.css */
+
+.admin-dashboard-layout {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background-color: #f5f7fa;
+}
+
+.sidebar {
+  width: 240px;
+  background-color: #140d76;
+  border-right: 1px solid #e5e7eb;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 1rem;
+  z-index: 10;
+  overflow-y: auto;
+}
+
+.admin-dashboard {
+  margin-left: 240px;
+  padding: 2rem;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.dashboard-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Welcome message styling */
+.welcome-message h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.welcome-message h1 span {
+  color: #3b82f6;
+}
+
+.welcome-message p {
+  font-size: 1rem;
+  color: #6b7280;
+}
+
+/* Layout rows and columns */
+.dashboard-row {
+  display: flex;
+  gap: 2rem;
+}
+
+.dashboard-column {
+  flex: 1;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .admin-dashboard {
+    margin-left: 0;
+    padding: 1rem;
+  }
+
+  .dashboard-row {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,20 @@
+.image-card {
+    width: 400px; /* Adjust width */
+    height: 300px; /* Adjust height */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Card shadow */
+    overflow: hidden; /* Ensures rounded corners apply properly */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff; /* White background */
+    padding: 10px;
+  }
+  
+  .image-card img {
+    width: 100%; /* Make image fill the card */
+    height: 100%; /* Stretch to fit */
+    object-fit: cover; /* Ensures proper scaling */
+    border-radius: 10px; /* Slight rounding */
+  }
+  

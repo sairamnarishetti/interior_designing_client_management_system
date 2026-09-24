@@ -1,0 +1,24 @@
+.overview-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    color: #fff;
+  }
+  
+  .overview-card .icon {
+    font-size: 28px;
+  }
+  
+  .overview-card .details h4 {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .overview-card .details p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
